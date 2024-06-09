@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hô đếm ngược</title>
+    <style>
+        span{
+            border:1px solid rgb(6, 5, 5);
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Đồng hồ bấm giờ đếm ngược</h1>
+    <div style="padding: 10px; align-items: center;" >
+        <input type="text" id="gio" placeholder="Giờ" style="margin: 4px;"> <br>
+        <input type="text" id="phut" placeholder="Phút" style="margin: 4px;"><br>
+        <input type="tex" id="giay" placeholder="Giây" style="margin: 4px;"><br>
+    </div>
+    <div>
+
+        <button onclick="start()" style="float: left; margin-left: 10px; margin-right: 10px;">Start</button>
+        <button onclick="stop()">Stop</button>
+    </div>
+    <br>
+    <div>
+        <span id="g">Giờ</span> :
+        <span id="p">Phút</span> :
+        <span id="s">Giây</span>
+    </div>
+    <script src="./bai1.js"></script>
+</body>
+</html>
